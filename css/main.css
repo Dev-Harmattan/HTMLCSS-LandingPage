@@ -180,11 +180,11 @@ section {
   max-width: 100%;
 }
 
-.hero {
+.hero{
   background-image: url('../img/hero.jpg');
   background-size: cover;
   height: 400px;
-  background-position: center;
+  background-position: center center;
   text-transform: uppercase;
 }
 
@@ -199,14 +199,14 @@ section {
 
 .hero h1, h2 {
   font-size: 63px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 0.9;
 }
 
 .hero p {
   letter-spacing: 2px;
   font-size: 21px;
-  font-weight: 700px;
+  font-weight: 700;
   margin: 0 0 10px;
 }
 
@@ -252,7 +252,7 @@ section {
   text-align: center;
 }
 
-.category-text {
+.category-text > div{
   color: #faa541;
   font-size: 16px;
   font-weight: 200;
